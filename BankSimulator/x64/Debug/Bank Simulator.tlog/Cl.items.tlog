@@ -1,9 +1,9 @@
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\Account.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\Account.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\AccountsUtil.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\AccountsUtil.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\CheckingAccount.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\CheckingAccount.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\IllegalBalanceException.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\IllegalBalanceException.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\InsufficientFundsException.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\InsufficientFundsException.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\IPersistable.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\IPersistable.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\BankSimulator.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\BankSimulator.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\SavingsAccount.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\SavingsAccount.obj
-C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\TrustAccount.cpp;C:\Users\lulu\source\repos\UdemyCourse\BankSimulator\x64\Debug\TrustAccount.obj
+L:\C++ projects\BankAccounts\BankSimulator\Account.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\Account.obj
+L:\C++ projects\BankAccounts\BankSimulator\AccountsUtil.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\AccountsUtil.obj
+L:\C++ projects\BankAccounts\BankSimulator\CheckingAccount.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\CheckingAccount.obj
+L:\C++ projects\BankAccounts\BankSimulator\IllegalBalanceException.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\IllegalBalanceException.obj
+L:\C++ projects\BankAccounts\BankSimulator\InsufficientFundsException.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\InsufficientFundsException.obj
+L:\C++ projects\BankAccounts\BankSimulator\IPersistable.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\IPersistable.obj
+L:\C++ projects\BankAccounts\BankSimulator\BankSimulator.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\BankSimulator.obj
+L:\C++ projects\BankAccounts\BankSimulator\SavingsAccount.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\SavingsAccount.obj
+L:\C++ projects\BankAccounts\BankSimulator\TrustAccount.cpp;L:\C++ projects\BankAccounts\BankSimulator\x64\Debug\TrustAccount.obj

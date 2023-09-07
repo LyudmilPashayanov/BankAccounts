@@ -26,7 +26,7 @@ int main()
         std::cout << "5. Deposit to all accounts." << std::endl;
         std::cout << "6. Withdraw from all accounts." << std::endl;
         std::cout << "7. Delete all accounts." << std::endl;
-        std::cout << "8. Save your accounts to 'Accounts' file." << std::endl;
+        std::cout << "8. Save your changes to 'Accounts.txt' file." << std::endl;
         std::cout << "9. Exit" << std::endl;
 
         std::cout << "Enter your choice (1-9): ";

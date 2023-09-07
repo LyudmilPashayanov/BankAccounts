@@ -129,12 +129,27 @@ std::vector<std::unique_ptr<Account>> ReadFileWithAccounts()
 			{
 				double accIntRate;
 				lineStream >> accBalance >> accIntRate;
-				accounts.push_back(std::make_unique<SavingsAccount>(accName, accBalance, accIntRate));
+				try 
+				{
+					accounts.push_back(std::make_unique<SavingsAccount>(accName, accBalance, accIntRate));
+				}
+				catch (IllegalBalanceException& ex)
+				{
+					std::cout << ex.what();
+				}
 				break;
 			}
 			case checking:
 			{
-				accounts.push_back(std::make_unique<CheckingAccount>(accName, accBalance));
+				lineStream >> accBalance;
+				try
+				{
+					accounts.push_back(std::make_unique<CheckingAccount>(accName, accBalance));
+				}
+				catch (IllegalBalanceException& ex)
+				{
+					std::cout << ex.what();
+				}
 				break;
 			}
 			case trust:
@@ -142,7 +157,14 @@ std::vector<std::unique_ptr<Account>> ReadFileWithAccounts()
 				double accIntRate;
 				int withdrawCounter;
 				lineStream >> accBalance >> accIntRate >>withdrawCounter;
-				accounts.push_back(std::make_unique<TrustAccount>(accName, accBalance, accIntRate, withdrawCounter));
+				try
+				{
+					accounts.push_back(std::make_unique<TrustAccount>(accName, accBalance, accIntRate, withdrawCounter));
+				}
+				catch (IllegalBalanceException& ex)
+				{
+					std::cout << ex.what();
+				}
 				break;
 			}
 			default:

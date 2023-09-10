@@ -22,4 +22,4 @@ You can run the app by:
 - Function and Class templates.
 
 ## Questions
-For further questions about the project please contact me.
+For further questions about the project please contact me at sytix1@hotmail.com
